@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password to decrypt"
+        android:inputType="text"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/outputText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputPass"
+        android:layout_centerHorizontal="true"
+        android:background="#EAF863"
+        android:textColor="#F30723"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/decBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/outputText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/decButton" />
+    <Button
+        android:id="@+id/GobackBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/decBtn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/GobackButton" />
+
+</RelativeLayout>

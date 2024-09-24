@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Enc Dec</string>
+    <string name="encButton">Encryption</string>
+    <string name="decButton">Decryption</string>
+    <string name="GobackButton">Go Back</string>
+</resources>
